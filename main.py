@@ -8,5 +8,8 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
 from sklearn.cluster import KMeans
 from sklearn.pipeline import Pipeline
-def func():
+
+import seaborn as sns
+df = sns.load_dataset("titanic")
+df.head()
   
